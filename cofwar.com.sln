@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cofwar.com", "cofwar.com\cofwar.com.csproj", "{88958D72-E143-47A0-B5D4-1326FB394294}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{93A5E182-A0F1-4E58-9B96-A5148284FBF1}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{A0608F3C-B967-4468-9689-D2B5B1AA9A0A}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\cofwarcom-WAWS-dev.json = PublishScripts\Configurations\cofwarcom-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{924FE293-FE87-4AB1-9877-89F15D3BF72F}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "cofwardbpublish", "..\cofwardbpublish\cofwardbpublish.sqlproj", "{C1D798AD-8342-4039-B164-4ECC5EF95AA0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88958D72-E143-47A0-B5D4-1326FB394294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88958D72-E143-47A0-B5D4-1326FB394294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88958D72-E143-47A0-B5D4-1326FB394294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88958D72-E143-47A0-B5D4-1326FB394294}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D798AD-8342-4039-B164-4ECC5EF95AA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1D798AD-8342-4039-B164-4ECC5EF95AA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1D798AD-8342-4039-B164-4ECC5EF95AA0}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C1D798AD-8342-4039-B164-4ECC5EF95AA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1D798AD-8342-4039-B164-4ECC5EF95AA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1D798AD-8342-4039-B164-4ECC5EF95AA0}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A0608F3C-B967-4468-9689-D2B5B1AA9A0A} = {93A5E182-A0F1-4E58-9B96-A5148284FBF1}
+	EndGlobalSection
+EndGlobal
